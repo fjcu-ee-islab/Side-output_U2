@@ -99,7 +99,7 @@ uu
 
 u2+sideoutput
 
-side_l
+* side_l
 side_lr
 side_r
 side_s
