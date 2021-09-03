@@ -7,6 +7,7 @@ In order to make the model capable of multi-frame interpolation, we use a two-st
 
 At the same time, we also use the video frame interpolation technology in special X-ray imaging medical videos, and interpolate single-frame for large displacement motion and multi-frame for small displacement motion. The experimental results show that, our method has better results in single frame interpolation than existing methods. In multi-frame interpolation, although our method produces slightly worse results than other methods in fewer frames interpolation, however, with the prediction of intermediate frames as the number increases, our method has more advantages than other methods.
 
+
 # 環境建立
 
 Anaconda虛擬環境
@@ -24,9 +25,11 @@ conda install -c conda-forge tensorboardx
 conda install -c conda-forge nvidia-apex
 ```
 
+
 # 資料集下載
 
 可以下載訓練和測試資料再這個網址
+
 
 
 # 模型訓練
@@ -127,6 +130,7 @@ ucf101
 * u2_sl_ucf101
 
 
+
 # 模型測試
 
 模型修改
@@ -136,7 +140,7 @@ sh test_m.sh
 
 側邊輸出
 ```
-
+sh test_side.sh
 ```
 
 多幀插值有效性
