@@ -64,3 +64,9 @@ sh train_mef_utwo.sh
 sh train_mef_utwo_sl.sh
 sh train_mef_uu.sh
 ```
+
+window
+```
+sh train_window_utwo_sl.sh
+sh train_window_utwo_sl_small.sh
+```
