@@ -50,6 +50,7 @@ sh train_m_twou.sh
 sh train_m_uplus.sh
 sh train_m_utwo.sh
 sh train_m_uu.sh
+sh train_m_uu_test.sh
 ```
 
 u2+sideoutput
