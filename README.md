@@ -70,3 +70,13 @@ window
 sh train_window_utwo_sl.sh
 sh train_window_utwo_sl_small.sh
 ```
+
+adobe
+```
+sh train_adobe.sh
+```
+
+ucf101
+```
+sh train_ucf101.sh
+```
