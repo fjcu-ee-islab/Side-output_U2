@@ -27,6 +27,9 @@ pip install scikit-image
 pip install natsort
 pip install ffmpeg
 pip install tqdm
+
+pip install tensorboardx=2.1
+
 conda install -c conda-forge tensorboardx
 
 conda install -c conda-forge nvidia-apex
