@@ -28,3 +28,12 @@ conda install -c conda-forge nvidia-apex
 
 # 資料集下載
 
+可以下載訓練和測試資料再這個網址
+
+
+# 模型訓練
+
+```
+sh train_m_plusplus.sh
+
+```
