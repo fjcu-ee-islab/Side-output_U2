@@ -34,5 +34,12 @@ conda install -c conda-forge nvidia-apex
 
 ```
 sh train_m_plusplus.sh
-
+sh train_m_plustwo.sh
+sh train_m_plusu.sh
+sh train_m_twoplus.sh
+sh train_m_twotwo.sh
+sh train_m_twou.sh
+sh train_m_uplus.sh
+sh train_m_utwo.sh
+sh train_m_uu.sh
 ```
