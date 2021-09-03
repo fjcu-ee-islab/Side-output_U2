@@ -30,10 +30,12 @@ pip install tqdm
 
 pip install tensorboardx=2.1
 
-conda install -c conda-forge tensorboardx
-
-conda install -c conda-forge nvidia-apex
 pip install apex
+
+pip install tensorboard==2.4.1
+
+
+albumentations
 ```
 
 
