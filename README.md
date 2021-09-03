@@ -86,47 +86,42 @@ sh train_ucf101.sh
 預訓練模型下載
 
 模型修改
-plusplus
-plustwo
-plusu
-twoplus
-twotwo
-twou
-uplus
-utwo
-uu
+* plusplus
+* plustwo
+* plusu
+* twoplus
+* twotwo
+* twou
+* uplus
+* utwo
+* uu
 
 
 u2+sideoutput
-
 * side_l
-side_lr
-side_r
-side_s
-side_sl
-side_slr
-side_sr
+* side_lr
+* side_r
+* side_s
+* side_sl
+* side_slr
+* side_sr
 
 
 
 model eff
-
-mef_utwo
-mef_utwo_sl
-mef_uu
+* mef_utwo
+* mef_utwo_sl
+* mef_uu
 
 
 window
-
-window_utwo_sl
-window_utwo_sl_small
+* window_utwo_sl
+* window_utwo_sl_small
 
 
 adobe
-
-u2_sl_adobe
+* u2_sl_adobe
 
 
 ucf101
-
-u2_sl_ucf101
+* u2_sl_ucf101
