@@ -26,6 +26,7 @@ pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f htt
 pip install scikit-image
 pip install natsort
 pip install ffmpeg
+pip install tqdm
 conda install -c conda-forge tensorboardx
 
 conda install -c conda-forge nvidia-apex
