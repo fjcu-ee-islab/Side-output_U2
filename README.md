@@ -32,6 +32,7 @@ conda install -c conda-forge nvidia-apex
 
 # 模型訓練
 
+模型修改
 ```
 sh train_m_plusplus.sh
 sh train_m_plustwo.sh
@@ -42,4 +43,24 @@ sh train_m_twou.sh
 sh train_m_uplus.sh
 sh train_m_utwo.sh
 sh train_m_uu.sh
+```
+
+u2+sideoutput
+
+```
+sh train_side_l.sh
+sh train_side_lr.sh
+sh train_side_r.sh
+sh train_side_s.sh
+sh train_side_sl.sh
+sh train_side_slr.sh
+sh train_side_sr.sh
+```
+
+
+model eff
+```
+sh train_mef_utwo.sh
+sh train_mef_utwo_sl.sh
+sh train_mef_uu.sh
 ```
