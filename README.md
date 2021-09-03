@@ -155,7 +155,7 @@ sh test_side.sh
 
 window
 ```
-
+sh test_window.sh
 ```
 
 adobe
