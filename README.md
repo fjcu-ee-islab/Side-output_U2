@@ -131,7 +131,7 @@ model eff
 * mef_uu
 
 
-window
+xray(window)
 * window_utwo_sl
 * window_utwo_sl_small
 
@@ -159,25 +159,30 @@ sh test_side.sh
 
 多幀插值有效性
 ```
-
+sh test_multi_eff.sh
 ```
 
 模型修改有效性
 ```
-
+sh test_mef.sh
 ```
 
-window
+xray_large
 ```
-sh test_window.sh
-```
-
-adobe
-```
-
+sh test_xray_single.sh
 ```
 
 ucf101
 ```
+sh test_ucf101.sh
+```
 
+xray_small
+```
+sh test_xray_multi.sh
+```
+
+adobe
+```
+sh test_adobe.sh
 ```
