@@ -31,24 +31,24 @@ Please input the dataset to the ./data/ file
 
 # Training
 
-## xray_large
+## Xray_large
 ```
 sh train_side_sl.sh
 sh train_window_utwo_sl.sh
 ```
 
-## xray_small
+## Xray_small
 ```
 sh train_mef_utwo_sl.sh
 sh train_window_utwo_sl_small.sh
 ```
 
-## adobe
+## Adobe240fps
 ```
 sh train_adobe.sh
 ```
 
-## ucf101
+## UCF101
 ```
 sh train_ucf101.sh
 ```
@@ -56,40 +56,40 @@ sh train_ucf101.sh
 
 # Download pre-trained models
 
-## xray_large
+## Xray_large
 * [side_sl](https://drive.google.com/file/d/1MT2EL-Qj49LLoOyFlJSTES359rVr9OJn/view?usp=sharing)
 * [window_utwo_sl](https://drive.google.com/file/d/1TuQjdeUBsk5EpOnB_hGQi9rfBTaXxm9s/view?usp=sharing)
 
-## xray_small
+## Xray_small
 * [mef_utwo_sl](https://drive.google.com/file/d/1VR4MlogSSMTij3X43GtLNGhNWEb43h2h/view?usp=sharing)
 * [window_utwo_sl_small](https://drive.google.com/file/d/13HPr6GjGzxp3n3wDwtpmDM4_-eCI-O6M/view?usp=sharing)
 
-## adobe
+## Adobe240fps
 * [u2_sl_adobe](https://drive.google.com/file/d/1vMD9Qpqe5NBUwLMfG9D84ZLtGMsCywx7/view?usp=sharing)
 
-## ucf101
+## UCF101
 * [u2_sl_ucf101](https://drive.google.com/file/d/1vI3wunNkDdve1PaZy6sJWMo_BYTpYfba/view?usp=sharing)
 
 Please input the dataset to the ./pretrained_model/ file
 
 # Testing
 
-## xray_large
+## Xray_large
 ```
 sh test_xray_single.sh
 ```
 
-## ucf101
+## UCF101
 ```
 sh test_ucf101.sh
 ```
 
-## xray_small
+## Xray_small
 ```
 sh test_xray_multi.sh
 ```
 
-## adobe
+## Adobe240fps
 ```
 sh test_adobe.sh
 ```
