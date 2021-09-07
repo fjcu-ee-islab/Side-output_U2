@@ -22,10 +22,10 @@ conda activate slomo_test
 # Download datasets
 
 you can download the datasets as follow
-* [xray_large](https://drive.google.com/file/d/11nWfyS0sFQNNXRTilj-rntXccloB2bT9/view?usp=sharing)
-* [xray_small](https://drive.google.com/file/d/1N7UTCnmEsnPBxoJMGSYoeGUdS2FXccfO/view?usp=sharing)
-* [adobe](https://drive.google.com/file/d/1u30NFgV6UCioyqQqTdMrlte_iesvosOw/view?usp=sharing)
-* [ucf101](https://drive.google.com/file/d/1F1gyzLPoWnOAycpAJPqRPSqAtMXXfzIK/view?usp=sharing)
+* [Xray_large](https://drive.google.com/file/d/11nWfyS0sFQNNXRTilj-rntXccloB2bT9/view?usp=sharing)
+* [Xray_small](https://drive.google.com/file/d/1N7UTCnmEsnPBxoJMGSYoeGUdS2FXccfO/view?usp=sharing)
+* [Adobe240fps](https://drive.google.com/file/d/1u30NFgV6UCioyqQqTdMrlte_iesvosOw/view?usp=sharing)
+* [UCF101](https://drive.google.com/file/d/1F1gyzLPoWnOAycpAJPqRPSqAtMXXfzIK/view?usp=sharing)
 
 Please input the dataset to the ./data/ file
 
