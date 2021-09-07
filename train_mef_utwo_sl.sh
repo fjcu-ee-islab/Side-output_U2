@@ -18,4 +18,3 @@ CUDA_VISIBLE_DEVICES=0 python3 -m torch.distributed.launch --nproc_per_node=1 tr
     --name small_u2_sl \
     --train_file /home/ubuntu/Downloads/slomo_mine/data/xray_small/small_move_train \
     --val_file /home/ubuntu/Downloads/slomo_mine/data/xray_small/7_inter \
-    --save /home/ubuntu/Downloads/slomo_mine/model_result \
