@@ -77,7 +77,6 @@ sh train_ucf101.sh
 ```
 pretrained_models
 ```
-
 Please input the dataset to the ./pretrained_models/
 
 # Testing
