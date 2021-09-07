@@ -12,12 +12,15 @@ At the same time, we also use the video frame interpolation technology in specia
 ![image](https://github.com/fjcu-ee-islab/Sideoutput_U2/blob/main/figure/model.png)  
 
 
+
+
 # Anaconda environment
 
 ```
 conda emv create -f slomo.yaml
 conda activate slomo_test
 ```
+
 
 
 # Download datasets
@@ -32,6 +35,8 @@ you can download the datasets as follow
 mkdir data
 ```
 Please input the dataset to the ./data/
+
+
 
 # Training
 
@@ -58,6 +63,8 @@ sh train_ucf101.sh
 ```
 
 
+
+
 # Download pre-trained models
 
 ## Xray_large
@@ -78,6 +85,8 @@ sh train_ucf101.sh
 mkdir pretrained_models
 ```
 Please input the dataset to the ./pretrained_models/
+
+
 
 # Testing
 
