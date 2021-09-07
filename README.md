@@ -122,6 +122,9 @@ Please move the pretrained_models to the ./pretrained_models/
 <Br/>
 
 # Testing
+you need to modify your `--val_file` and `--resume` path to your path in each dataset.
+(must be absolute path)
+
 ## Xray_large
 ```
 sh test_xray_single.sh
