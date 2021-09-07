@@ -17,8 +17,20 @@ At the same time, we also use the video frame interpolation technology in specia
 # Anaconda environment
 
 ```
-conda env create -f slomo.yaml
+conda create -n slomo_test
 conda activate slomo_test
+conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=11.0 -c pytorch
+pip install scikit-image
+pip install tqdm
+pip install natsort
+pip install ffmpeg
+conda install -c conda-forge tensorboardx
+
+git clone https://github.com/NVIDIA/apex
+cd apex
+pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./
+cd ..
+
 ```
 
 
