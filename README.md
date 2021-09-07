@@ -17,7 +17,7 @@ At the same time, we also use the video frame interpolation technology in specia
 # Anaconda environment
 
 ```
-conda emv create -f slomo.yaml
+conda env create -f slomo.yaml
 conda activate slomo_test
 ```
 
