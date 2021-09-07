@@ -13,7 +13,7 @@ CUDA_VISIBLE_DEVICES=0 python3 -m torch.distributed.launch --nproc_per_node=1 tr
 	--stride 32 \
     --lr_milestones 200 400 \
 	--epochs 500 \
-    --name u2_sl_ucf101 \
+    --name train_ucf101 \
     --train_file /home/ubuntu/Downloads/slomo_mine/data/adobe/train \
     --val_file /home/ubuntu/Downloads/slomo_mine/data/adobe/validation \
 
