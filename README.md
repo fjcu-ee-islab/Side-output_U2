@@ -76,14 +76,14 @@ sh train_window_utwo_sl_small.sh
 
 ## Adobe240fps
 `--trian_file your path/data/adobe/train`
-`--val_file your path/data/adobe/val`
+`--val_file your path/data/adobe/validation`
 ```
 sh train_adobe.sh
 ```
 
 ## UCF101
 `--trian_file your path/data/adobe/train`
-`--val_file your path/data/adobe/val`
+`--val_file your path/data/adobe/validation`
 ```
 sh train_ucf101.sh
 ```
