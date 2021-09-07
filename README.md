@@ -37,13 +37,16 @@ mkdir data
 and then, move the dataset to the ./data/
 
 
-
-
-
 <Br/>
 <Br/>
 
 # Training
+
+you need to check you path,
+--trian_file
+--val_file
+
+
 ## Xray_large
 ```
 sh train_side_sl.sh
