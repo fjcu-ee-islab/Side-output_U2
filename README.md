@@ -126,21 +126,49 @@ you need to modify your `--val_file` and `--resume` path to your path in each da
 (must be absolute path)
 
 ## Xray_large
+
+`--val_file your path/data/xray_large/test`
+
+`--resume your path/pretrained_models/`
+
 ```
 sh test_xray_single.sh
 ```
 
 ## UCF101
+
+`--val_file your path/data/ucf101/test`
+
+`--resume your path/pretrained_models/`
+
 ```
 sh test_ucf101.sh
 ```
 
 ## Xray_small
+
+`--val_file your path/data/xray_large/1_inter`
+
+`--val_file your path/data/xray_large/3_inter`
+
+`--val_file your path/data/xray_large/7_inter`
+
+`--resume your path/pretrained_models/`
+
 ```
 sh test_xray_multi.sh
 ```
 
 ## Adobe240fps
+
+`--val_file your path/data/adobe/adobe_test/test_1`
+
+`--val_file your path/data/adobe/adobe_test/test_3`
+
+`--val_file your path/data/adobe/adobe_test/test_7`
+
+`--resume your path/pretrained_models/`
+
 ```
 sh test_adobe.sh
 ```
