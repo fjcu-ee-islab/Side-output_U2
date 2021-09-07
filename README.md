@@ -19,10 +19,10 @@ conda activate slomo_test
 # 資料集下載
 
 可以下載訓練和測試資料再這個網址
-xray_large
-xray_small
-adobe
-ucf101
+* [xray_large](https://drive.google.com/file/d/11nWfyS0sFQNNXRTilj-rntXccloB2bT9/view?usp=sharing)
+* [xray_small](https://drive.google.com/file/d/1N7UTCnmEsnPBxoJMGSYoeGUdS2FXccfO/view?usp=sharing)
+* [adobe](https://drive.google.com/file/d/1u30NFgV6UCioyqQqTdMrlte_iesvosOw/view?usp=sharing)
+* [ucf101](https://drive.google.com/file/d/1F1gyzLPoWnOAycpAJPqRPSqAtMXXfzIK/view?usp=sharing)
 
 
 # 模型訓練
