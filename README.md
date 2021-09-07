@@ -98,7 +98,7 @@ u2+sideoutput
 * side_lr
 * side_r
 * side_s
-* side_sl
+* [side_sl](https://drive.google.com/file/d/1MT2EL-Qj49LLoOyFlJSTES359rVr9OJn/view?usp=sharing)
 * side_slr
 * side_sr
 
@@ -106,13 +106,13 @@ u2+sideoutput
 
 model eff
 * mef_utwo
-* mef_utwo_sl
+* [mef_utwo_sl](https://drive.google.com/file/d/1VR4MlogSSMTij3X43GtLNGhNWEb43h2h/view?usp=sharing)
 * mef_uu
 
 
 xray(window)
-* window_utwo_sl
-* window_utwo_sl_small
+* [window_utwo_sl](https://drive.google.com/file/d/1TuQjdeUBsk5EpOnB_hGQi9rfBTaXxm9s/view?usp=sharing)
+* [window_utwo_sl_small](https://drive.google.com/file/d/13HPr6GjGzxp3n3wDwtpmDM4_-eCI-O6M/view?usp=sharing)
 
 
 adobe
