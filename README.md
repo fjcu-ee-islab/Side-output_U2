@@ -26,43 +26,15 @@ conda activate slomo_test
 
 # 模型訓練
 
-模型修改
+xray_large
 ```
-sh train_m_plusplus.sh
-sh train_m_plustwo.sh
-sh train_m_plusu.sh
-sh train_m_twoplus.sh
-sh train_m_twotwo.sh
-sh train_m_twou.sh
-sh train_m_uplus.sh
-sh train_m_utwo.sh
-sh train_m_uu.sh
-sh train_m_uu_test.sh
-```
-
-u2+sideoutput
-
-```
-sh train_side_l.sh
-sh train_side_lr.sh
-sh train_side_r.sh
-sh train_side_s.sh
 sh train_side_sl.sh
-sh train_side_slr.sh
-sh train_side_sr.sh
-```
-
-
-model eff
-```
-sh train_mef_utwo.sh
-sh train_mef_utwo_sl.sh
-sh train_mef_uu.sh
-```
-
-xray(window)
-```
 sh train_window_utwo_sl.sh
+```
+
+xray_small
+```
+sh train_mef_utwo_sl.sh
 sh train_window_utwo_sl_small.sh
 ```
 
@@ -79,45 +51,16 @@ sh train_ucf101.sh
 
 # 預訓練模型下載
 
-預訓練模型下載
-
-模型修改
-* plusplus
-* plustwo
-* plusu
-* twoplus
-* twotwo
-* twou
-* uplus
-* utwo
-* uu
-
-
-u2+sideoutput
-* side_l
-* side_lr
-* side_r
-* side_s
+xray_large
 * [side_sl](https://drive.google.com/file/d/1MT2EL-Qj49LLoOyFlJSTES359rVr9OJn/view?usp=sharing)
-* side_slr
-* side_sr
-
-
-
-model eff
-* mef_utwo
-* [mef_utwo_sl](https://drive.google.com/file/d/1VR4MlogSSMTij3X43GtLNGhNWEb43h2h/view?usp=sharing)
-* mef_uu
-
-
-xray(window)
 * [window_utwo_sl](https://drive.google.com/file/d/1TuQjdeUBsk5EpOnB_hGQi9rfBTaXxm9s/view?usp=sharing)
-* [window_utwo_sl_small](https://drive.google.com/file/d/13HPr6GjGzxp3n3wDwtpmDM4_-eCI-O6M/view?usp=sharing)
 
+xray_small
+* [mef_utwo_sl](https://drive.google.com/file/d/1VR4MlogSSMTij3X43GtLNGhNWEb43h2h/view?usp=sharing)
+* [window_utwo_sl_small](https://drive.google.com/file/d/13HPr6GjGzxp3n3wDwtpmDM4_-eCI-O6M/view?usp=sharing)
 
 adobe
 * [u2_sl_adobe](https://drive.google.com/file/d/1vMD9Qpqe5NBUwLMfG9D84ZLtGMsCywx7/view?usp=sharing)
-
 
 ucf101
 * [u2_sl_ucf101](https://drive.google.com/file/d/1vI3wunNkDdve1PaZy6sJWMo_BYTpYfba/view?usp=sharing)
@@ -126,25 +69,6 @@ ucf101
 
 # 模型測試
 
-模型修改
-```
-sh test_m.sh
-```
-
-側邊輸出
-```
-sh test_side.sh
-```
-
-多幀插值有效性
-```
-sh test_multi_eff.sh
-```
-
-模型修改有效性
-```
-sh test_mef.sh
-```
 
 xray_large
 ```
