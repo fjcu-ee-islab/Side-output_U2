@@ -60,7 +60,6 @@ you need to modify your `--trian_file` and `--val_file` path to your path in eac
 
 ## Xray_large
 `--trian_file your path/data/xray_large/train`
-
 `--val_file your path/data/xray_large/val`
 ```
 sh train_side_sl.sh
