@@ -60,6 +60,7 @@ you need to modify your `--trian_file` and `--val_file` path to your path in eac
 
 ## Xray_large
 `--trian_file your path/data/xray_large/train`
+
 `--val_file your path/data/xray_large/val`
 ```
 sh train_side_sl.sh
@@ -91,12 +92,15 @@ sh train_adobe.sh
 sh train_ucf101.sh
 ```
 
-
-
 <Br/>
 <Br/> 
 
 # Download pre-trained models
+
+```
+mkdir pretrained_models
+```
+Download pre-trained models
 ## Xray_large
 * [side_sl](https://drive.google.com/file/d/1MT2EL-Qj49LLoOyFlJSTES359rVr9OJn/view?usp=sharing)
 * [window_utwo_sl](https://drive.google.com/file/d/1TuQjdeUBsk5EpOnB_hGQi9rfBTaXxm9s/view?usp=sharing)
@@ -111,10 +115,7 @@ sh train_ucf101.sh
 ## UCF101
 * [u2_sl_ucf101](https://drive.google.com/file/d/1vI3wunNkDdve1PaZy6sJWMo_BYTpYfba/view?usp=sharing)
 
-```
-mkdir pretrained_models
-```
-Please input the dataset to the ./pretrained_models/
+Please move the pretrained_models to the ./pretrained_models/
 
 
 <Br/>
