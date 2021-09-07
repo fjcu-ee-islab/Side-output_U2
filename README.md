@@ -59,23 +59,31 @@ you need to modify your `--trian_file` and `--val_file` path to your path in eac
 
 
 ## Xray_large
+`--trian_file your path/data/xray_large/train`
+`--val_file your path/data/xray_large/val`
 ```
 sh train_side_sl.sh
 sh train_window_utwo_sl.sh
 ```
 
 ## Xray_small
+`--trian_file your path/data/xray_small/train`
+`--val_file your path/data/xray_small/val`
 ```
 sh train_mef_utwo_sl.sh
 sh train_window_utwo_sl_small.sh
 ```
 
 ## Adobe240fps
+`--trian_file your path/data/adobe/train`
+`--val_file your path/data/adobe/val`
 ```
 sh train_adobe.sh
 ```
 
 ## UCF101
+`--trian_file your path/data/adobe/train`
+`--val_file your path/data/adobe/val`
 ```
 sh train_ucf101.sh
 ```
