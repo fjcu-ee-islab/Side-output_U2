@@ -11,7 +11,7 @@ At the same time, we also use the video frame interpolation technology in specia
 ![image](https://github.com/fjcu-ee-islab/Sideoutput_U2/blob/main/figure/model.png)  
 
 
-# 環境建立
+# Anaconda environment
 
 ```
 conda emv create -f slomo.yaml
@@ -19,17 +19,17 @@ conda activate slomo_test
 ```
 
 
-# 資料集下載
+# Download datasets
 
-可以下載訓練和測試資料再這個網址
+you can download the datasets as follow
 * [xray_large](https://drive.google.com/file/d/11nWfyS0sFQNNXRTilj-rntXccloB2bT9/view?usp=sharing)
 * [xray_small](https://drive.google.com/file/d/1N7UTCnmEsnPBxoJMGSYoeGUdS2FXccfO/view?usp=sharing)
 * [adobe](https://drive.google.com/file/d/1u30NFgV6UCioyqQqTdMrlte_iesvosOw/view?usp=sharing)
 * [ucf101](https://drive.google.com/file/d/1F1gyzLPoWnOAycpAJPqRPSqAtMXXfzIK/view?usp=sharing)
 
-請將下載完的資料集解壓縮後放至data資料夾
+Please input the dataset to the ./data/ file
 
-# 模型訓練
+# Training
 
 xray_large
 ```
@@ -54,7 +54,7 @@ sh train_ucf101.sh
 ```
 
 
-# 預訓練模型下載
+# Download pre-trained models
 
 xray_large
 * [side_sl](https://drive.google.com/file/d/1MT2EL-Qj49LLoOyFlJSTES359rVr9OJn/view?usp=sharing)
@@ -70,9 +70,9 @@ adobe
 ucf101
 * [u2_sl_ucf101](https://drive.google.com/file/d/1vI3wunNkDdve1PaZy6sJWMo_BYTpYfba/view?usp=sharing)
 
-請將下載完的模型放至pretrained_model資料夾
+Please input the dataset to the ./pretrained_model/ file
 
-# 模型測試
+# Testing
 
 xray_large
 ```
