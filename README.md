@@ -75,7 +75,7 @@ sh train_ucf101.sh
 * [u2_sl_ucf101](https://drive.google.com/file/d/1vI3wunNkDdve1PaZy6sJWMo_BYTpYfba/view?usp=sharing)
 
 ```
-pretrained_models
+mkdir pretrained_models
 ```
 Please input the dataset to the ./pretrained_models/
 
