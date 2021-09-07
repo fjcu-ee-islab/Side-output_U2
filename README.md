@@ -25,17 +25,19 @@ conda activate slomo_test
 <Br/>
 
 # Download datasets
+```
+mkdir data
+```
+Please input the dataset to the ./data/
 
-you can download the datasets as follow
+
+and then, you can download the datasets as follow
 * [Xray_large](https://drive.google.com/file/d/11nWfyS0sFQNNXRTilj-rntXccloB2bT9/view?usp=sharing)
 * [Xray_small](https://drive.google.com/file/d/1N7UTCnmEsnPBxoJMGSYoeGUdS2FXccfO/view?usp=sharing)
 * [Adobe240fps](https://drive.google.com/file/d/1u30NFgV6UCioyqQqTdMrlte_iesvosOw/view?usp=sharing)
 * [UCF101](https://drive.google.com/file/d/1F1gyzLPoWnOAycpAJPqRPSqAtMXXfzIK/view?usp=sharing)
 
-```
-mkdir data
-```
-Please input the dataset to the ./data/
+
 
 
 <Br/>
