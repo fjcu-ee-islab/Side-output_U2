@@ -14,6 +14,6 @@ CUDA_VISIBLE_DEVICES=0 python3 -m torch.distributed.launch --nproc_per_node=1 tr
 	--stride 32 \
     --lr_milestones 350 450 \
 	--epochs 500 \
-	--name side_sl \
+	--name train_xray_large \
 	--train_file /home/ubuntu/Downloads/slomo_mine/data/xray_large/train \
 	--val_file /home/ubuntu/Downloads/slomo_mine/data/xray_large/val \
