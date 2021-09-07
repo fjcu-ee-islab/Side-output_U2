@@ -10,18 +10,19 @@ At the same time, we also use the video frame interpolation technology in specia
 
 # 環境建立
 
-
 ```
 conda emv create -f slomo.yaml
 conda activate slomo_test
 ```
 
 
-
 # 資料集下載
 
 可以下載訓練和測試資料再這個網址
-
+xray_large
+xray_small
+adobe
+ucf101
 
 
 # 模型訓練
@@ -66,9 +67,7 @@ ucf101
 * [u2_sl_ucf101](https://drive.google.com/file/d/1vI3wunNkDdve1PaZy6sJWMo_BYTpYfba/view?usp=sharing)
 
 
-
 # 模型測試
-
 
 xray_large
 ```
