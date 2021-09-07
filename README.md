@@ -13,7 +13,6 @@ At the same time, we also use the video frame interpolation technology in specia
 
 <Br/>
 <Br/>
-<Br/>
 
 # Anaconda environment
 
@@ -23,6 +22,7 @@ conda activate slomo_test
 ```
 
 
+<Br/>
 
 # Download datasets
 
@@ -38,7 +38,8 @@ mkdir data
 Please input the dataset to the ./data/
 
 
-# 
+<Br/>
+<Br/>
 # Training
 
 ## Xray_large
@@ -65,7 +66,8 @@ sh train_ucf101.sh
 
 
 
-# 
+<Br/>
+<Br/> 
 # Download pre-trained models
 
 ## Xray_large
@@ -88,7 +90,8 @@ mkdir pretrained_models
 Please input the dataset to the ./pretrained_models/
 
 
-# 
+<Br/>
+<Br/>
 # Testing
 
 ## Xray_large
