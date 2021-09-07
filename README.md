@@ -40,8 +40,8 @@ Please input the dataset to the ./data/
 
 <Br/>
 <Br/>
-# Training
 
+# Training
 ## Xray_large
 ```
 sh train_side_sl.sh
@@ -68,8 +68,8 @@ sh train_ucf101.sh
 
 <Br/>
 <Br/> 
-# Download pre-trained models
 
+# Download pre-trained models
 ## Xray_large
 * [side_sl](https://drive.google.com/file/d/1MT2EL-Qj49LLoOyFlJSTES359rVr9OJn/view?usp=sharing)
 * [window_utwo_sl](https://drive.google.com/file/d/1TuQjdeUBsk5EpOnB_hGQi9rfBTaXxm9s/view?usp=sharing)
@@ -92,8 +92,8 @@ Please input the dataset to the ./pretrained_models/
 
 <Br/>
 <Br/>
-# Testing
 
+# Testing
 ## Xray_large
 ```
 sh test_xray_single.sh
