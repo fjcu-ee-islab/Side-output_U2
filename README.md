@@ -66,6 +66,7 @@ adobe
 
 ucf101
 * [u2_sl_ucf101](https://drive.google.com/file/d/1vI3wunNkDdve1PaZy6sJWMo_BYTpYfba/view?usp=sharing)
+
 請將下載完的模型放至pretrained_model資料夾
 
 # 模型測試
