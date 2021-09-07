@@ -42,9 +42,7 @@ and then, move the dataset to the ./data/
 
 # Training
 
-you need to check you path,
-# [--trian_file]
-# [--val_file]
+you need to cmodify your --trian_file and --val_file path to your path.
 
 
 ## Xray_large
