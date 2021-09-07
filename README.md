@@ -31,7 +31,7 @@ Please input the dataset to the ./data/ file
 
 # Training
 
-##xray_large
+## xray_large
 ```
 sh train_side_sl.sh
 sh train_window_utwo_sl.sh
