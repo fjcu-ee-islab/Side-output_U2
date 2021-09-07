@@ -7,6 +7,8 @@ In order to make the model capable of multi-frame interpolation, we use a two-st
 
 At the same time, we also use the video frame interpolation technology in special X-ray imaging medical videos, and interpolate single-frame for large displacement motion and multi-frame for small displacement motion. The experimental results show that, our method has better results in single frame interpolation than existing methods. In multi-frame interpolation, although our method produces slightly worse results than other methods in fewer frames interpolation, however, with the prediction of intermediate frames as the number increases, our method has more advantages than other methods.
 
+![](https://github.com/fjcu-ee-islab/Sideoutput_U2/edit/main/figure/model.tif)  
+
 
 # 環境建立
 
