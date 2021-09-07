@@ -1,4 +1,5 @@
-# X-ray Video Frame Interpolation Using Nested Architecture
+# Side-output_U2
+## X-ray Video Frame Interpolation Using Nested Architecture
 
 Given two consecutive frames, video frame interpolation aims at generating intermediate frames by judging the direction and speed of the movement of the object.
 While most existing methods focus on single-frame interpolation, we think that multi-frame interpolation is also important, so we propose a nested convolutional neural network for multi-frame video interpolation.
