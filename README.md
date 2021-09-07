@@ -43,8 +43,8 @@ and then, move the dataset to the ./data/
 # Training
 
 you need to check you path,
---trian_file
---val_file
+# [--trian_file]
+# [--val_file]
 
 
 ## Xray_large
