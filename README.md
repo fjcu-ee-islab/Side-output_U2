@@ -23,7 +23,7 @@ conda activate slomo_test
 * [xray_small](https://drive.google.com/file/d/1N7UTCnmEsnPBxoJMGSYoeGUdS2FXccfO/view?usp=sharing)
 * [adobe](https://drive.google.com/file/d/1u30NFgV6UCioyqQqTdMrlte_iesvosOw/view?usp=sharing)
 * [ucf101](https://drive.google.com/file/d/1F1gyzLPoWnOAycpAJPqRPSqAtMXXfzIK/view?usp=sharing)
-請將下載完的資料集解壓縮後放至./data/
+請將下載完的資料集解壓縮後放至data資料夾
 
 # 模型訓練
 
@@ -65,7 +65,7 @@ adobe
 
 ucf101
 * [u2_sl_ucf101](https://drive.google.com/file/d/1vI3wunNkDdve1PaZy6sJWMo_BYTpYfba/view?usp=sharing)
-
+請將下載完的模型放至pretrained_model資料夾
 
 # 模型測試
 
