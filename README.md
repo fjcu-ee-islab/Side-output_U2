@@ -28,6 +28,9 @@ you can download the datasets as follow
 * [Adobe240fps](https://drive.google.com/file/d/1u30NFgV6UCioyqQqTdMrlte_iesvosOw/view?usp=sharing)
 * [UCF101](https://drive.google.com/file/d/1F1gyzLPoWnOAycpAJPqRPSqAtMXXfzIK/view?usp=sharing)
 
+```
+mkdir data
+```
 Please input the dataset to the ./data/
 
 # Training
@@ -71,7 +74,11 @@ sh train_ucf101.sh
 ## UCF101
 * [u2_sl_ucf101](https://drive.google.com/file/d/1vI3wunNkDdve1PaZy6sJWMo_BYTpYfba/view?usp=sharing)
 
-Please input the dataset to the ./pretrained_model/
+```
+pretrained_models
+```
+
+Please input the dataset to the ./pretrained_models/
 
 # Testing
 
