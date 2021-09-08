@@ -63,8 +63,8 @@ you need to modify your `--trian_file` and `--val_file` path to your path in eac
 
 `--val_file your path/data/xray_large/val`
 ```
-sh train_side_sl.sh
-sh train_window_utwo_sl.sh
+sh train_xray_large.sh
+sh train_xray_large_window.sh
 ```
 
 ## Xray_small
@@ -72,8 +72,8 @@ sh train_window_utwo_sl.sh
 
 `--val_file your path/data/xray_small/val`
 ```
-sh train_mef_utwo_sl.sh
-sh train_window_utwo_sl_small.sh
+sh train_xray_small.sh
+sh train_xray_small_window.sh
 ```
 
 ## Adobe240fps
