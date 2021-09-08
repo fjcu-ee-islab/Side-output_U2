@@ -130,6 +130,7 @@ you need to modify your `--val_file` and `--resume` path to your path in each da
 `--val_file your path/data/xray_large/test`
 
 `--resume your path/pretrained_models/xray_large`
+
 `--resume your path/pretrained_models/xray_large_window`
 
 ```
