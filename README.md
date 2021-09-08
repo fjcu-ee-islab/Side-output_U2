@@ -130,9 +130,7 @@ you need to modify your `--val_file` and `--resume` path to your path in each da
 
 `--val_file your path/data/xray_large/test`
 
-`--resume your path/pretrained_models/xray_large`
-
-`--resume your path/pretrained_models/xray_large_window`
+`--resume your path/pretrained_models/xray_large` and `--resume your path/pretrained_models/xray_large_window`
 
 ```
 sh test_xray_single.sh
@@ -156,9 +154,7 @@ sh test_ucf101.sh
 
 `--val_file your path/data/xray_large/7_inter`
 
-`--resume your path/pretrained_models/xray_small.tar`
-
-`--resume your path/pretrained_models/xray_small_window.tar`
+`--resume your path/pretrained_models/xray_small.tar` and `--resume your path/pretrained_models/xray_small_window.tar`
 
 ```
 sh test_xray_multi.sh
