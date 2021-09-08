@@ -8,7 +8,7 @@ CUDA_VISIBLE_DEVICES=1 python3 eval_other.py \
     --resume /home/ubuntu/Downloads/Side-output_U2-main/pretrained_models/adobe.tar \
     --val_batch_size 1 \
     --gpus 1 \
-    --name adobe_result_1 \
+    --name test_adobe_result_1 \
     --write_images \
 
 
@@ -22,7 +22,7 @@ CUDA_VISIBLE_DEVICES=1 python3 eval_other.py \
     --resume /home/ubuntu/Downloads/Side-output_U2-main/pretrained_models/dobe.tar \
     --val_batch_size 1 \
     --gpus 1 \
-    --name adobe_result_3 \
+    --name test_adobe_result_3 \
     --write_images \
 
 
@@ -36,7 +36,7 @@ CUDA_VISIBLE_DEVICES=1 python3 eval_other.py \
     --resume /home/ubuntu/Downloads/Side-output_U2-main/pretrained_models/adobe.tar \
     --val_batch_size 1 \
     --gpus 1 \
-    --name adobe_result_7 \
+    --name test_adobe_result_7 \
     --write_images \
 
 
