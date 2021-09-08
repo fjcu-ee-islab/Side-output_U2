@@ -19,7 +19,6 @@ CUDA_VISIBLE_DEVICES=0 python3 eval.py \
 	--dataset VideoInterp \
 	--val_file /home/ubuntu/Downloads/Side-output_U2-main/data/xray_large/test \
     --resume /home/ubuntu/Downloads/Side-output_U2-main/pretrained_models/xray_large_window.tar \
-	--name window_u2_sl \
     --val_batch_size 1 \
     --gpus 1 \
 	--name test_xray_large_window \
