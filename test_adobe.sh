@@ -5,10 +5,10 @@ CUDA_VISIBLE_DEVICES=1 python3 eval_other.py \
 	--flow_scale 1 \
 	--dataset VideoInterp \
 	--val_file /home/ubuntu/Downloads/slomo_mine/data/adobe/adobe_test/test_1 \
-    --resume /home/ubuntu/Downloads/slomo_mine/pretrained_models/u2_sl_adobe.tar \
+    --resume /home/ubuntu/Downloads/slomo_mine/pretrained_models/adobe.tar \
     --val_batch_size 1 \
     --gpus 1 \
-    --name adobe_mine_1 \
+    --name adobe_result_1 \
     --write_images \
 
 
@@ -19,10 +19,10 @@ CUDA_VISIBLE_DEVICES=1 python3 eval_other.py \
 	--flow_scale 1 \
 	--dataset VideoInterp \
 	--val_file /home/ubuntu/Downloads/slomo_mine/data/adobe/adobe_test/test_3 \
-    --resume /home/ubuntu/Downloads/slomo_mine/pretrained_models/u2_sl_adobe.tar \
+    --resume /home/ubuntu/Downloads/slomo_mine/pretrained_models/dobe.tar \
     --val_batch_size 1 \
     --gpus 1 \
-    --name adobe_mine_3 \
+    --name adobe_result_3 \
     --write_images \
 
 
@@ -33,10 +33,10 @@ CUDA_VISIBLE_DEVICES=1 python3 eval_other.py \
 	--flow_scale 1 \
 	--dataset VideoInterp \
 	--val_file /home/ubuntu/Downloads/slomo_mine/data/adobe/adobe_test/test_7 \
-    --resume /home/ubuntu/Downloads/slomo_mine/pretrained_models/u2_sl_adobe.tar \
+    --resume /home/ubuntu/Downloads/slomo_mine/pretrained_models/adobe.tar \
     --val_batch_size 1 \
     --gpus 1 \
-    --name adobe_mine_7 \
+    --name adobe_result_7 \
     --write_images \
 
 
