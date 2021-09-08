@@ -24,6 +24,7 @@ pip install scikit-image
 pip install tqdm
 pip install natsort
 pip install ffmpeg
+pip install opencv-python
 conda install -c conda-forge tensorboardx
 
 git clone https://github.com/NVIDIA/apex
