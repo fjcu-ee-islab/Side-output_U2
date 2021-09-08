@@ -6,8 +6,10 @@ CUDA_VISIBLE_DEVICES=0 python3 -m torch.distributed.launch --nproc_per_node=1 tr
 	--crop_size 352 352 \
 	--print_freq 1 \
 	--dataset VideoInterp \
-    --num_interp 7 \
-	--val_num_interp 7 \
+	--sample_rate 4 \
+	--val_sample_rate 4 \
+    --num_interp 1 \
+	--val_num_interp 1 \
 	--save_freq 10 \
 	--start_epoch 0 \
 	--stride 32 \
