@@ -5,8 +5,8 @@ CUDA_VISIBLE_DEVICES=1 python3 eval_other.py \
 	--num_interp 1 \
 	--flow_scale 1 \
 	--dataset VideoInterp \
-	--val_file /home/ubuntu/Downloads/slomo_mine/data/ucf101/test \
-    --resume /home/ubuntu/Downloads/slomo_mine/pretrained_models/ucf101.tar \
+	--val_file /home/ubuntu/Downloads/Side-output_U2-main/data/ucf101/test \
+    --resume /home/ubuntu/Downloads/Side-output_U2-main/pretrained_models/ucf101.tar \
     --val_batch_size 1 \
     --gpus 1 \
     --name ucf101_result \
