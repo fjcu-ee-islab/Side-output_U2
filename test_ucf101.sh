@@ -16,9 +16,9 @@ CUDA_VISIBLE_DEVICES=1 python3 eval_other.py \
 
 echo 'ours'
 python3 eval_video_interpolation.py \
-	--gt-dir ./data/ucf101/test/ \
-	--motion-mask-dir ./data/ucf101/MotionMasks/ \
-	--res-dir ./result_folder/ucf101_result/ \
+	--gt-dir /home/ubuntu/Downloads/Side-output_U2-main/data/ucf101/test/ \
+	--motion-mask-dir /home/ubuntu/Downloads/Side-output_U2-main/data/ucf101/MotionMasks/ \
+	--res-dir /home/ubuntu/Downloads/Side-output_U2-main/result_folder/ucf101_result/ \
 	--res-suffix _Proposed.png \
 	--buggy-motion-mask
 
