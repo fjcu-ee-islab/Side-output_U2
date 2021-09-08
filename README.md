@@ -16,6 +16,10 @@ At the same time, we also use the video frame interpolation technology in specia
 
 # Anaconda3 environment
 
+CUDA 11.0
+pytorch 1.7.1
+apex 0.1
+
 ```
 conda create -n slomo_test
 conda activate slomo_test
