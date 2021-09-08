@@ -14,7 +14,7 @@ At the same time, we also use the video frame interpolation technology in specia
 <Br/>
 <Br/>
 
-# Anaconda environment
+# Anaconda3 environment
 
 ```
 conda create -n slomo_test
