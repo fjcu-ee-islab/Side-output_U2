@@ -14,7 +14,7 @@ def PSNR(original, compressed):
   
 def main():
     gt_file = '/home/ubuntu/Downloads/Side-output_U2-main/data/adobe/adobe_test/test_1'
-    output = '/home/ubuntu/Downloads/Side-output_U2-main/result_folder/test_adobe_mine_1'
+    output = '/home/ubuntu/Downloads/Side-output_U2-main/result_folder/test_adobe_result_1'
     av_psnr = 0
     gt_path = os.listdir(gt_file)
     count=0
@@ -67,7 +67,7 @@ def main():
     print(f"60fps PSNR value is {av_psnr} dB")
 
     gt_file = '/home/ubuntu/Downloads/Side-output_U2-main/data/adobe/adobe_test/test_3'
-    output = '/home/ubuntu/Downloads/Side-output_U2-main/result_folder/test_adobe_mine_3'
+    output = '/home/ubuntu/Downloads/Side-output_U2-main/result_folder/test_adobe_result_3'
     av_psnr = 0
     gt_path = os.listdir(gt_file)
     count=0
@@ -120,7 +120,7 @@ def main():
     print(f"120fps PSNR value is {av_psnr} dB")
 
     gt_file = '/home/ubuntu/Downloads/Side-output_U2-main/data/adobe/adobe_test/test_7'
-    output = '/home/ubuntu/Downloads/Side-output_U2-main/result_folder/test_adobe_mine_7'
+    output = '/home/ubuntu/Downloads/Side-output_U2-main/result_folder/test_adobe_result_7'
     av_psnr = 0
     gt_path = os.listdir(gt_file)
     count=0
