@@ -8,7 +8,7 @@ CUDA_VISIBLE_DEVICES=1 python3 eval.py \
     --resume /home/ubuntu/Downloads/Side-output_U2-main/pretrained_models/xray_large.tar \
     --val_batch_size 1 \
     --gpus 1 \
-	--name xray_large \
+	--name test_xray_large \
     --write_images \
 
 
@@ -22,6 +22,6 @@ CUDA_VISIBLE_DEVICES=0 python3 eval.py \
 	--name window_u2_sl \
     --val_batch_size 1 \
     --gpus 1 \
-	--name xray_large_window \
+	--name test_xray_large_window \
     --write_images \
 
