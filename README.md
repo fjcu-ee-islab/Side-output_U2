@@ -170,6 +170,7 @@ sh test_xray_multi.sh
 
 `--resume your path/pretrained_models/adobe.tar`
 
+and you have to modify the path of gt_file and out_file in psnr_adobe.py
 ```
 sh test_adobe.sh
 ```
