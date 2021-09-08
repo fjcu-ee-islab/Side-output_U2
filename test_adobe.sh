@@ -19,7 +19,7 @@ CUDA_VISIBLE_DEVICES=1 python3 eval_other.py \
 	--flow_scale 1 \
 	--dataset VideoInterp \
 	--val_file /home/ubuntu/Downloads/Side-output_U2-main/data/adobe/adobe_test/test_3 \
-    --resume /home/ubuntu/Downloads/Side-output_U2-main/pretrained_models/dobe.tar \
+    --resume /home/ubuntu/Downloads/Side-output_U2-main/pretrained_models/adobe.tar \
     --val_batch_size 1 \
     --gpus 1 \
     --name test_adobe_result_3 \
