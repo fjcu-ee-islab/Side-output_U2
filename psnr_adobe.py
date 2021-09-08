@@ -13,8 +13,8 @@ def PSNR(original, compressed):
     return psnr
   
 def main():
-    gt_file = '/home/ubuntu/Downloads/slomo_mine/data/adobe/adobe_test/test_1'
-    output = '/home/ubuntu/Downloads/slomo_mine/result_folder/adobe_mine_1'
+    gt_file = './data/adobe/adobe_test/test_1'
+    output = './result_folder/test_adobe_mine_1'
     av_psnr = 0
     gt_path = os.listdir(gt_file)
     count=0
@@ -66,8 +66,8 @@ def main():
     av_psnr = av_psnr / count
     print(f"60fps PSNR value is {av_psnr} dB")
 
-    gt_file = '/home/ubuntu/Downloads/slomo_mine/data/adobe/adobe_test/test_3'
-    output = '/home/ubuntu/Downloads/slomo_mine/result_folder/adobe_mine_3'
+    gt_file = './data/adobe/adobe_test/test_3'
+    output = './result_folder/test_adobe_mine_3'
     av_psnr = 0
     gt_path = os.listdir(gt_file)
     count=0
@@ -119,8 +119,8 @@ def main():
     av_psnr = av_psnr / count
     print(f"120fps PSNR value is {av_psnr} dB")
 
-    gt_file = '/home/ubuntu/Downloads/slomo_mine/data/adobe/adobe_test/test_7'
-    output = '/home/ubuntu/Downloads/slomo_mine/result_folder/adobe_mine_7'
+    gt_file = './data/adobe/adobe_test/test_7'
+    output = './result_folder/test_adobe_mine_7'
     av_psnr = 0
     gt_path = os.listdir(gt_file)
     count=0
