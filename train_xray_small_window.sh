@@ -16,6 +16,6 @@ CUDA_VISIBLE_DEVICES=0 python3 -m torch.distributed.launch --nproc_per_node=1 tr
     --step_size 1 \
 	--epochs 500 \
     --name train_xray_small_window \
-    --train_file /home/ubuntu/Downloads/Side-output_U2-main/data/xray_small/small_move_train \
-    --val_file /home/ubuntu/Downloads/Side-output_U2-main/data/xray_small/7_inter \
+    --train_file /home/ubuntu/Downloads/Side-output_U2-main/data/xray_small/train \
+    --val_file /home/ubuntu/Downloads/Side-output_U2-main/data/xray_small/val \
 
