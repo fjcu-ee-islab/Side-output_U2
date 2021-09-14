@@ -180,3 +180,9 @@ and you have to modify the path of gt_file and out_file in psnr_adobe.py
 ```
 sh test_adobe.sh
 ```
+
+
+# References:
+
+Parts of the code is based on [NVIDIA/unsupervised-video-interpolatio](https://github.com/NVIDIA/unsupervised-video-interpolation)
+
